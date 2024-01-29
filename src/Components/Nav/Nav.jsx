@@ -22,7 +22,11 @@ function Nav() {
         </button>
       </div>
       {/* Nav items */}
-      <div className={`md:flex ${isNavOpen ? "block" : "hidden"} mt-4 md:mt-0`}>
+      <div
+        className={`md:flex ${
+          isNavOpen ? "block" : "hidden"
+        } mt-4 ml-5 md:mt-0`}
+      >
         <NavItems />
       </div>
     </div>

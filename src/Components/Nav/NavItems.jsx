@@ -1,7 +1,9 @@
+import Button from "../Button/Button";
+
 const NavItems = () => {
   return (
     <>
-      <ul className="md:flex md:items-center gap-7 text-base text-gray-700">
+      <ul className="md:flex md:items-center mb-5 gap-7 text-base text-gray-700">
         <li>
           <a href="/home">Home</a>
         </li>
@@ -16,9 +18,7 @@ const NavItems = () => {
         </li>
         <li>
           <a href="/guide">
-            <button className="py-2.5 px-4 bg-teal-500 hover:bg-teal-600 text-white rounded ">
-              Get your free guide now
-            </button>
+            <Button>Get your free guide now</Button>
           </a>
         </li>
       </ul>
