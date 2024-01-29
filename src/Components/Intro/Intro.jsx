@@ -5,7 +5,7 @@ import icon3 from "../../assets/resourse/people.svg";
 const Intro = () => {
   return (
     <div className="px-5 md:px-36 md:py-24 ">
-      <img className="md:pb-4 pb-2 w-20" src={zigzag} alt="" />
+      <img className="md:pb-4  pt-5 pb-2 w-20" src={zigzag} alt="" />
       {/* upper intro  */}
       <div className="md:flex justify-between md:py-4">
         <h1 className="md:w-1/2 text-primary text-xl mb-2 md:text-5xl font-bold flex flex-col">

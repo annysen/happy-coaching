@@ -7,7 +7,7 @@ import star from "../../assets/resourse/Star.png";
 const FeedBack = () => {
   return (
     <div className="px-5 py-10 md:px-36 md:py-24 bg-cream">
-      <h1 className=" text-primary text-xl mb-2 md:text-5xl font-bold flex flex-col">
+      <h1 className=" text-primary text-xl mb-2 md:text-5xl font-bold md:flex md:flex-col">
         <span>Hear out what my</span>
         <span> clients say about me.</span>
       </h1>
@@ -33,7 +33,7 @@ const FeedBack = () => {
         <div className="bg-white p-10 my-5 md:p-12">
           <p className="text-secondary">
             "I gained so much <span className="font-bold">confidence</span> in
-            my ability to connect and deepen my relationships with people. "
+            my ability to connect and deepen my relationships with people."
           </p>
           <h1 className="font-bold text-secondary my-2 md:my-4">Catherine</h1>
           <img src={user1} alt="" />
