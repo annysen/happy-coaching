@@ -7,9 +7,13 @@ import Guide from "./Components/Guide/Guide";
 import Intro from "./Components/Intro/Intro";
 import Nav from "./Components/Nav/Nav";
 
+const myStyle = {
+  maxWidth: "1440px",
+  margin: "auto",
+};
 function App() {
   return (
-    <>
+    <div style={myStyle}>
       <Nav />
       <Cover />
       <Intro />
@@ -18,7 +22,7 @@ function App() {
       <Guide />
       <BookNow />
       <Footer />
-    </>
+    </div>
   );
 }
 
