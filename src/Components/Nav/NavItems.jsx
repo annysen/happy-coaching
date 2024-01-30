@@ -5,16 +5,24 @@ const NavItems = () => {
     <>
       <ul className="md:flex md:items-center mb-5 gap-7 text-base text-gray-700">
         <li>
-          <a href="/home">Home</a>
+          <a className="hover:text-teal-500 " href="/home">
+            Home
+          </a>
         </li>
         <li>
-          <a href="/service">Service</a>
+          <a className="hover:text-teal-500 " href="/service">
+            Service
+          </a>
         </li>
         <li>
-          <a href="/about">About Us</a>
+          <a className="hover:text-teal-500 " href="/about">
+            About Us
+          </a>
         </li>
         <li>
-          <a href="/extra">Extra Salespage</a>
+          <a className="hover:text-teal-500  " href="/extra">
+            Extra Salespage
+          </a>
         </li>
         <li>
           <a href="/guide">
